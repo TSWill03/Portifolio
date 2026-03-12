@@ -2,7 +2,7 @@ import type { PortfolioData } from '@/types/portfolio'
 
 export const portfolioData: PortfolioData = {
   seo: {
-    title: 'Seu Nome | Portifolio premium e sites personalizaveis',
+    title: 'Wicolly Pedro Alcântara | Portifolio premium e sites personalizaveis',
     description:
       'Portifolio profissional com projetos, certificados, galeria multimidia e proposta comercial para transformar a propria presenca digital em produto.',
     keywords: [
@@ -79,7 +79,7 @@ export const portfolioData: PortfolioData = {
   ],
   hero: {
     eyebrow: 'Portifolio pessoal + produto digital sob encomenda',
-    name: 'Seu Nome Studio',
+    name: 'Wicolly Alcantara',
     role: 'Desenvolvedor(a) web focado(a) em experiencias digitais premium',
     title:
       'Uma presenca online completa para mostrar sua evolucao e vender o seu valor.',
@@ -148,15 +148,15 @@ export const portfolioData: PortfolioData = {
       ],
     },
     socialLinks: [
-      { label: 'GitHub', href: 'https://github.com/seuusuario', icon: 'github' },
+      { label: 'GitHub', href: 'https://github.com/TSWill03', icon: 'github' },
       {
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/seuusuario',
+        href: 'https://www.linkedin.com/in/wicolly-alcantara-3454102a7/',
         icon: 'linkedin',
       },
       {
         label: 'Instagram',
-        href: 'https://www.instagram.com/seuusuario',
+        href: 'https://www.instagram.com/wicolly',
         icon: 'instagram',
       },
     ],
@@ -618,43 +618,43 @@ export const portfolioData: PortfolioData = {
     methods: [
       {
         title: 'WhatsApp',
-        value: '+55 11 99999-9999',
-        href: 'https://wa.me/5511999999999?text=Ola!%20Vi%20seu%20portifolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
+        value: '+55 34 99767-5400',
+        href: 'https://wa.me/5534997675400?text=Ola!%20Vi%20seu%20portifolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
         icon: 'whatsapp',
         description: 'Canal ideal para um primeiro contato rapido e objetivo.',
       },
       {
         title: 'E-mail',
-        value: 'contato@seunome.dev',
-        href: 'mailto:contato@seunome.dev',
+        value: 'wicolly@gmail.com',
+        href: 'mailto:wicolly@gmail.com',
         icon: 'mail',
         description: 'Melhor opcao para orcamentos, materiais e informacoes detalhadas.',
       },
       {
         title: 'GitHub',
-        value: 'github.com/seuusuario',
-        href: 'https://github.com/seuusuario',
+        value: 'github.com/TSWill03',
+        href: 'https://github.com/TSWill03',
         icon: 'github',
         description: 'Repositorio e historico tecnico para quem quer aprofundar no codigo.',
       },
       {
         title: 'LinkedIn',
-        value: 'linkedin.com/in/seuusuario',
-        href: 'https://www.linkedin.com/in/seuusuario',
+        value: 'linkedin.com/in/wicolly-alcantara-3454102a7/',
+        href: 'https://www.linkedin.com/in/wicolly-alcantara-3454102a7/',
         icon: 'linkedin',
         description: 'Perfil profissional com networking, experiencia e atualizacoes.',
       },
     ],
     socialLinks: [
-      { label: 'GitHub', href: 'https://github.com/seuusuario', icon: 'github' },
+      { label: 'GitHub', href: 'https://github.com/TSWill03', icon: 'github' },
       {
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/seuusuario',
+        href: 'https://www.linkedin.com/in/wicolly-alcantara-3454102a7/',
         icon: 'linkedin',
       },
       {
         label: 'Instagram',
-        href: 'https://www.instagram.com/seuusuario',
+        href: 'https://www.instagram.com/wicollyo',
         icon: 'instagram',
       },
       {
@@ -666,13 +666,13 @@ export const portfolioData: PortfolioData = {
     quickLinks: [
       {
         label: 'Chamar no WhatsApp',
-        href: 'https://wa.me/5511999999999?text=Ola!%20Vi%20seu%20portifolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
+        href: 'https://wa.me/5534997675400?text=Ola!%20Vi%20seu%20portifolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
         variant: 'primary',
         icon: 'whatsapp',
       },
       {
         label: 'Enviar e-mail',
-        href: 'mailto:contato@seunome.dev',
+        href: 'mailto:wicolly@gmail.com',
         variant: 'secondary',
         icon: 'mail',
       },
