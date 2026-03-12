@@ -214,7 +214,7 @@ export const portfolioData: PortfolioData = {
     eyebrow: 'Projetos em andamento e concluidos',
     title: 'Projetos reais organizados com contexto tecnico, status e proposta de produto.',
     description:
-      'Substitui os exemplos genericos por projetos reais seus, com capas versionadas no proprio repositorio para garantir que as imagens tambem entrem no deploy.',
+      'Agora os projetos usam capturas reais versionadas no proprio repositorio, o que garante que as imagens aparecam corretamente tambem no GitHub Pages.',
     items: [
       {
         id: 'portfolio-premium',
@@ -230,12 +230,20 @@ export const portfolioData: PortfolioData = {
         demoUrl: 'https://tswill03.github.io/Portifolio/',
         gallery: [
           {
-            src: '/media/project-controle-estoque.svg',
-            alt: 'Capa do projeto controle de estoque',
+            src: '/media/project-controle-estoque-real.png',
+            alt: 'Screenshot real do projeto controle de estoque',
           },
           {
-            src: '/media/project-campusflow.svg',
-            alt: 'Capa do projeto CampusFlow',
+            src: '/media/project-campusflow-real.png',
+            alt: 'Screenshot real do projeto CampusFlow',
+          },
+          {
+            src: '/media/project-quanto-custa-real.png',
+            alt: 'Screenshot real do projeto Quanto Custa',
+          },
+          {
+            src: '/media/project-txt-webnovel-reader.png',
+            alt: 'Screenshot real do projeto TXT Webnovel Reader',
           },
         ],
         highlights: [
@@ -252,31 +260,32 @@ export const portfolioData: PortfolioData = {
         description:
           'Sistema desktop para operacao de estoque em rede local, com servidor centralizado, auditoria, Excel e fluxos seguros de entrada, saida e transferencia.',
         status: 'in-progress',
-        phase: 'Base operacional com modulos principais implementados',
+        phase: 'Dashboard e modulos internos ativos',
         technologies: ['Electron', 'React', 'TypeScript', 'Fastify', 'Prisma', 'PostgreSQL'],
-        cover: '/media/project-controle-estoque.svg',
-        coverAlt: 'Capa do sistema de controle de estoque corporativo',
+        cover: '/media/project-controle-estoque-real.png',
+        coverAlt: 'Screenshot do sistema de controle de estoque corporativo',
         highlights: [
+          'Dashboard com indicadores de produtos, depositos, movimentos e alerta de reposicao.',
           'Desktop profissional conectado a uma API centralizada para uso interno.',
-          'Regras de negocio, auditoria e movimentacoes tratadas no back-end.',
-          'Arquitetura modular preparada para crescer por modulos e relatorios.',
+          'Arquitetura modular preparada para crescer com relatorios, usuarios e operacao em rede local.',
         ],
         details:
-          'O projeto foi pensado para operacao real em ambiente corporativo, com autenticacao, categorias, fornecedores, depositos, produtos, alertas de estoque minimo e importacao/exportacao por Excel.',
+          'O projeto foi pensado para operacao real em ambiente corporativo, com autenticacao, categorias, fornecedores, depositos, produtos, alertas de estoque minimo, auditoria e importacao/exportacao por Excel.',
       },
       {
         id: 'campusflow',
-        title: 'CampusFlow',
+        title: 'CampusFlow | Gerenciador de Estudos',
         description:
           'Gerenciador academico pessoal offline-first para estudantes universitarios, com perfis, disciplinas, horas obrigatorias, estudos e backup local em JSON.',
         status: 'in-progress',
-        phase: 'MVP offline-first validado',
+        phase: 'Perfis academicos e modulos base validados',
         technologies: ['Flutter', 'Riverpod', 'Drift', 'SQLite', 'Go Router', 'Material 3'],
-        cover: '/media/project-campusflow.svg',
-        coverAlt: 'Capa do app CampusFlow',
+        cover: '/media/project-campusflow-real.png',
+        coverAlt: 'Screenshot do app CampusFlow',
         highlights: [
+          'Tela de perfis academicos com status ativo, carga total e blocos por area.',
           'Funciona 100% offline com banco local e metadados para sync futura.',
-          'Organiza disciplinas, tarefas, sessoes de estudo e atividades academicas.',
+          'Organiza disciplinas, tarefas, sessoes de estudo, horas complementares, estagios e extensao.',
           'Backup e restauracao em JSON para manter os dados portaveis.',
         ],
         details:
@@ -290,10 +299,11 @@ export const portfolioData: PortfolioData = {
         status: 'completed',
         phase: 'MVP multiplataforma com historico local',
         technologies: ['Flutter', 'Dart', 'SharedPreferences', 'Material 3'],
-        cover: '/media/project-quanto-custa.svg',
-        coverAlt: 'Capa do app Quanto Custa',
+        cover: '/media/project-quanto-custa-real.png',
+        coverAlt: 'Screenshot do app Quanto Custa',
         highlights: [
           'Transforma habitos recorrentes em simulacoes mensais, anuais e de cinco anos.',
+          'Interface com presets rapidos, sliders e leitura visual imediata do impacto.',
           'Salva cenarios localmente para restaurar ou excluir depois.',
           'Projeto pensado como app de portfolio para Windows, Android e iOS.',
         ],
@@ -304,19 +314,19 @@ export const portfolioData: PortfolioData = {
         id: 'txt-webnovel-reader',
         title: 'TXT Webnovel Reader',
         description:
-          'Leitor continuo com foco inicial em desktop para livros em TXT, EPUB e PDF, priorizando leitura local, importacao simples e navegacao sem ruido.',
+          'Leitor continuo com foco inicial em desktop para TXT, EPUB e PDF, com biblioteca local, importacao simples, perfis e navegacao sem ruido.',
         status: 'in-progress',
-        phase: 'Leitor desktop em evolucao',
+        phase: 'Biblioteca local e fluxo de leitura em evolucao',
         technologies: ['Flutter', 'Desktop', 'EPUBX', 'pdfrx', 'SharedPreferences'],
-        cover: '/media/project-reader-real.svg',
-        coverAlt: 'Capa do leitor continuo de livros',
+        cover: '/media/project-txt-webnovel-reader.png',
+        coverAlt: 'Screenshot do leitor TXT Webnovel Reader',
         highlights: [
-          'Importa conteudo local e organiza a leitura em uma interface enxuta.',
+          'Biblioteca local com busca, filtros, favoritos, recentes e acao rapida para abrir.',
+          'Importa conteudo local e organiza a leitura por perfil com suporte a backup.',
           'Base preparada para TXT, EPUB, PDF e persistencia local.',
-          'Projeto pensado para leitura continua com foco em desktop.',
         ],
         details:
-          'Esse projeto mostra seu lado de produto utilitario: uma base Flutter para leitura local que pode evoluir com biblioteca, favoritos, progresso e organizacao de colecoes pessoais.',
+          'Esse projeto mostra seu lado de produto utilitario: uma base Flutter para leitura local que pode evoluir com progresso, favoritos, colecoes pessoais e experiencia continua de leitura em desktop.',
       },
     ],
   },
@@ -422,47 +432,39 @@ export const portfolioData: PortfolioData = {
   },
   gallery: {
     eyebrow: 'Galeria multimidia',
-    title: 'Capas reais dos projetos e ativos visuais que agora viajam junto com o deploy.',
+    title: 'Screenshots reais dos projetos, agora publicados junto com o site.',
     description:
-      'Como suas imagens locais nao estavam indo para o site, reorganizei a galeria para usar arquivos versionados dentro do proprio repositorio. Assim o GitHub Pages publica tudo junto.',
+      'As imagens que voce me mandou agora foram colocadas dentro do repositorio e ligadas aos projetos. Assim o portfolio mostra telas reais e o GitHub Pages publica tudo junto.',
     images: [
-      {
-        title: 'Portfolio comercial',
-        description:
-          'A capa do proprio portfolio, que tambem funciona como produto white-label para apresentacao comercial.',
-        src: '/media/project-portfolio.svg',
-        alt: 'Capa do portfolio comercial personalizavel',
-        tag: 'Web',
-      },
       {
         title: 'Controle de Estoque',
         description:
-          'Capa criada para representar o sistema desktop corporativo de estoque, operacao e auditoria.',
-        src: '/media/project-controle-estoque.svg',
-        alt: 'Capa do sistema de controle de estoque',
+          'Dashboard desktop com indicadores, alerta de reposicao e menu operacional para ambiente corporativo.',
+        src: '/media/project-controle-estoque-real.png',
+        alt: 'Screenshot do sistema de controle de estoque',
         tag: 'Desktop',
       },
       {
-        title: 'CampusFlow',
+        title: 'Gerenciador de Estudos',
         description:
-          'Visual dedicado ao app academico offline-first, com foco em disciplinas, horas e estudos.',
-        src: '/media/project-campusflow.svg',
-        alt: 'Capa do app CampusFlow',
+          'Tela real do CampusFlow com perfis academicos, modulos laterais e resumo da graduacao ativa.',
+        src: '/media/project-campusflow-real.png',
+        alt: 'Screenshot do app CampusFlow',
         tag: 'Flutter',
       },
       {
         title: 'Quanto Custa?',
         description:
-          'App autoral para simulacao do impacto financeiro de habitos recorrentes com historico local.',
-        src: '/media/project-quanto-custa.svg',
+          'Simulador com comparacao visual, presets de habito, sliders e leitura de impacto no curto e longo prazo.',
+        src: '/media/project-quanto-custa-real.png',
         alt: 'Capa do app Quanto Custa',
         tag: 'Habitos',
       },
       {
         title: 'TXT Webnovel Reader',
         description:
-          'Leitor para TXT, EPUB e PDF com foco em uma experiencia desktop mais continua e limpa.',
-        src: '/media/project-reader-real.svg',
+          'Biblioteca local com capas, busca, filtros, favoritos e abertura rapida para leitura continua.',
+        src: '/media/project-txt-webnovel-reader.png',
         alt: 'Capa do leitor TXT Webnovel Reader',
         tag: 'Leitura',
       },
