@@ -106,12 +106,12 @@ https://www.youtube.com/embed/VIDEO_ID
 
 ### 4. Curriculo
 
-O botao da hero aponta hoje para `public/curriculo.html`.
+O botao da hero aponta hoje para `public/curriculo.pdf`.
 
 Voce pode:
 
 - editar a versao web em `public/curriculo.html`
-- substituir o PDF em `public/curriculo.pdf`
+- regenerar ou substituir o PDF em `public/curriculo.pdf`
 - apontar para um link externo
 - trocar o `href` em `hero.actions`
 
