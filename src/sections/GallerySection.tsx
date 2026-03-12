@@ -9,6 +9,8 @@ interface GallerySectionProps {
 }
 
 export function GallerySection({ data }: GallerySectionProps) {
+  const hasVideos = data.videos.length > 0
+
   return (
     <Section id="gallery">
       <SectionHeader
@@ -17,7 +19,7 @@ export function GallerySection({ data }: GallerySectionProps) {
         title={data.title}
       />
 
-      <div className="gallery-layout">
+      <div className={hasVideos ? 'gallery-layout' : 'gallery-layout gallery-layout--single'}>
         <div className="gallery-grid">
           {data.images.map((image, index) => (
             <Reveal
@@ -40,25 +42,27 @@ export function GallerySection({ data }: GallerySectionProps) {
           ))}
         </div>
 
-        <div className="video-list">
-          {data.videos.map((video, index) => (
-            <Reveal className="glass-card video-card" delay={120 + index * 90} key={video.title}>
-              <div className="video-embed">
-                <iframe
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  loading="lazy"
-                  src={video.embedUrl}
-                  title={video.title}
-                />
-              </div>
-              <div className="video-card__body">
-                <h3>{video.title}</h3>
-                <p>{video.description}</p>
-              </div>
-            </Reveal>
-          ))}
-        </div>
+        {hasVideos ? (
+          <div className="video-list">
+            {data.videos.map((video, index) => (
+              <Reveal className="glass-card video-card" delay={120 + index * 90} key={video.title}>
+                <div className="video-embed">
+                  <iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy"
+                    src={video.embedUrl}
+                    title={video.title}
+                  />
+                </div>
+                <div className="video-card__body">
+                  <h3>{video.title}</h3>
+                  <p>{video.description}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        ) : null}
       </div>
     </Section>
   )

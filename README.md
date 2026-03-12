@@ -86,6 +86,12 @@ Para trocar:
 2. Atualize os caminhos no arquivo `src/data/portfolioData.ts`.
 3. Se quiser usar imagens externas, basta informar a URL completa no mesmo campo.
 
+Importante:
+
+- imagens salvas em outras pastas do seu computador nao vao para o GitHub Pages automaticamente
+- para aparecer no site publicado, a imagem precisa estar dentro do projeto, preferencialmente em `public/media`
+- depois disso, faca `git add`, `git commit` e `git push` para enviar o arquivo junto com o deploy
+
 Para videos:
 
 1. Troque o `videoEmbedUrl` dos projetos.

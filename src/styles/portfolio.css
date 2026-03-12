@@ -178,6 +178,10 @@
   gap: 1.25rem;
 }
 
+.gallery-layout--single {
+  grid-template-columns: 1fr;
+}
+
 .about-card {
   gap: 1.6rem;
 }

@@ -2,18 +2,19 @@ import type { PortfolioData } from '@/types/portfolio'
 
 export const portfolioData: PortfolioData = {
   seo: {
-    title: 'Wicolly Pedro Alcântara | Portifolio premium e sites personalizaveis',
+    title: 'Wicolly Pedro Alcantara | Portifolio de software e produtos digitais',
     description:
-      'Portifolio profissional com projetos, certificados, galeria multimidia e proposta comercial para transformar a propria presenca digital em produto.',
+      'Portifolio profissional com sistemas reais, apps multiplataforma, galeria visual e estrutura comercial pronta para personalizacao.',
     keywords: [
       'portifolio pessoal',
-      'site profissional',
-      'site personalizado',
-      'desenvolvedor web',
+      'portfolio desenvolvedor flutter',
+      'portfolio react typescript',
+      'sistema de estoque',
+      'app de estudos',
       'produto digital sob encomenda',
       'portfolio premium',
     ],
-    siteUrl: 'https://seunome.dev',
+    siteUrl: 'https://tswill03.github.io/Portifolio/',
     ogImage: '/og-cover.svg',
   },
   theme: {
@@ -80,13 +81,12 @@ export const portfolioData: PortfolioData = {
   hero: {
     eyebrow: 'Portifolio pessoal + produto digital sob encomenda',
     name: 'Wicolly Alcantara',
-    role: 'Desenvolvedor(a) web focado(a) em experiencias digitais premium',
-    title:
-      'Uma presenca online completa para mostrar sua evolucao e vender o seu valor.',
+    role: 'Desenvolvedor de software focado em apps, sistemas e experiencias digitais premium',
+    title: 'Projetos reais que conectam organizacao, usabilidade e valor de produto.',
     description:
-      'Este projeto foi pensado para funcionar ao mesmo tempo como portifolio autoral e como demonstracao comercial de um produto personalizavel para clientes, especialistas e negocios criativos.',
+      'Aqui eu apresento um portifolio que mistura sistemas desktop, apps Flutter, organizadores offline-first e uma estrutura visual que tambem pode ser vendida como produto para outros clientes.',
     subtitle:
-      'Estrutura modular, visual moderno, manutencao simples e conteudo 100% editavel a partir de um unico arquivo.',
+      'A base continua modular e totalmente editavel, mas agora destacando projetos autorais como controle de estoque, gerenciador academico, simulador de habitos e app de leitura.',
     availability: 'Disponivel para novos projetos e personalizacoes',
     actions: [
       {
@@ -108,19 +108,12 @@ export const portfolioData: PortfolioData = {
         icon: 'download',
       },
     ],
-    badges: [
-      'React',
-      'TypeScript',
-      'Design Systems',
-      'UI Premium',
-      'SEO Basico',
-      'Acessibilidade',
-    ],
+    badges: ['React', 'TypeScript', 'Flutter', 'Electron', 'Fastify', 'Drift'],
     metrics: [
       {
-        value: '12+',
-        label: 'projetos organizados em cards',
-        detail: 'com status, links, galeria e video',
+        value: '5',
+        label: 'projetos reais em destaque',
+        detail: 'entre portfolio, desktop corporativo e apps Flutter',
       },
       {
         value: '100%',
@@ -128,14 +121,14 @@ export const portfolioData: PortfolioData = {
         detail: 'textos, cores, links e ordem das secoes',
       },
       {
-        value: '1 produto',
-        label: 'pronto para ser vendido',
-        detail: 'modelo adaptavel para outros clientes',
+        value: '3 frentes',
+        label: 'web, desktop e mobile',
+        detail: 'experiencia multiplataforma com foco em manutencao',
       },
     ],
     image: {
       src: '/media/avatar-tech.svg',
-      alt: 'Ilustracao abstrata representando um portifolio digital premium',
+      alt: 'Ilustracao abstrata representando um portfolio digital premium',
     },
     feature: {
       title: 'O mesmo formato pode virar um produto comercial',
@@ -144,7 +137,7 @@ export const portfolioData: PortfolioData = {
       items: [
         'Troca simples de identidade visual, fontes e imagens.',
         'Projetos, certificados e midia carregados a partir de dados estruturados.',
-        'Secoes reorganizaveis para criar desde um portifolio ate uma vitrine comercial.',
+        'Secoes reorganizaveis para criar desde um portfolio ate uma vitrine comercial.',
       ],
     },
     socialLinks: [
@@ -156,40 +149,40 @@ export const portfolioData: PortfolioData = {
       },
       {
         label: 'Instagram',
-        href: 'https://www.instagram.com/wicolly',
+        href: 'https://www.instagram.com/wicollyo',
         icon: 'instagram',
       },
     ],
   },
   about: {
     eyebrow: 'Sobre mim',
-    title: 'Criatividade, organizacao e foco em entrega com valor comercial.',
+    title: 'Apps, sistemas e interfaces pensados para crescer com clareza.',
     description:
-      'A proposta deste portifolio e mostrar nao apenas trabalhos concluidos, mas tambem a capacidade de planejar experiencias digitais que podem crescer com novas secoes, cases, certificados e materiais multimidia.',
+      'Este portfolio foi reorganizado para mostrar projetos reais de software, combinando Flutter, React, Electron e organizacao de produto em uma apresentacao clara e escalavel.',
     paragraphs: [
-      'Atuo unindo desenvolvimento front-end, organizacao de informacao e direcao visual para criar paginas que transmitam profissionalismo sem parecerem genericas.',
-      'Penso cada projeto como um ativo de negocio: ele precisa apresentar resultados, destacar o processo, valorizar a marca e facilitar futuras atualizacoes sem reescrever tudo do zero.',
+      'Atuo unindo desenvolvimento de software, organizacao de informacao e direcao visual para criar projetos que transmitam profissionalismo sem parecerem genericos.',
+      'Penso cada projeto como um ativo de negocio: ele precisa funcionar bem, explicar seu valor, organizar o dominio com clareza e facilitar futuras evolucoes sem reescrever tudo do zero.',
     ],
     skills: [
       'Arquitetura de interfaces',
+      'Apps desktop e mobile',
+      'Sistemas offline-first',
       'Desenvolvimento responsivo',
-      'Organizacao de conteudo',
-      'Componentizacao',
-      'UX writing',
-      'Landing pages e portifolios premium',
+      'Organizacao de dominio e conteudo',
+      'Solucoes com valor comercial',
     ],
     technologies: [
       {
-        label: 'Front-end',
-        items: ['React', 'TypeScript', 'Vite', 'HTML semantico', 'CSS moderno'],
+        label: 'Front-end e desktop',
+        items: ['React', 'TypeScript', 'Vite', 'Electron', 'CSS moderno'],
       },
       {
-        label: 'Design e UX',
-        items: ['Figma', 'Design tokens', 'Wireframes', 'Sistemas visuais'],
+        label: 'Mobile e offline-first',
+        items: ['Flutter', 'Riverpod', 'Drift', 'SQLite', 'Go Router'],
       },
       {
-        label: 'Performance',
-        items: ['SEO basico', 'Lazy loading', 'Acessibilidade basica', 'Boas praticas'],
+        label: 'Back-end e dados',
+        items: ['Node.js', 'Fastify', 'Prisma', 'PostgreSQL', 'JSON backup'],
       },
       {
         label: 'Fluxo de entrega',
@@ -219,110 +212,111 @@ export const portfolioData: PortfolioData = {
   },
   projects: {
     eyebrow: 'Projetos em andamento e concluidos',
-    title: 'Cases apresentados com contexto, progresso e potencial de expansao.',
+    title: 'Projetos reais organizados com contexto tecnico, status e proposta de produto.',
     description:
-      'Cada projeto abaixo pode exibir imagem principal, galeria opcional, status de execucao, tecnologias, links externos e um bloco de detalhes para aprofundar o raciocinio de produto.',
+      'Substitui os exemplos genericos por projetos reais seus, com capas versionadas no proprio repositorio para garantir que as imagens tambem entrem no deploy.',
     items: [
       {
         id: 'portfolio-premium',
-        title: 'Portifolio Productized',
+        title: 'Portifolio Comercial Personalizavel',
         description:
-          'Site autoral com estrutura modular para exibir trajetoria, provas de capacidade e oferta de servico em um unico fluxo.',
+          'Este proprio site funciona como portfolio pessoal, vitrine de servicos e base reaproveitavel para novos clientes.',
         status: 'completed',
-        phase: 'Lancado em marco de 2026',
-        technologies: ['React', 'TypeScript', 'Arquitetura por componentes', 'SEO'],
+        phase: 'Publicado no GitHub Pages',
+        technologies: ['React', 'TypeScript', 'Vite', 'Arquitetura por componentes', 'SEO'],
         cover: '/media/project-portfolio.svg',
-        coverAlt: 'Mockup de um portifolio premium em telas sobrepostas',
-        githubUrl: 'https://github.com/seuusuario/portfolio-productized',
-        demoUrl: 'https://seusite.com/portfolio-productized',
-        videoEmbedUrl: 'https://www.youtube.com/embed/aqz-KE-bpKQ',
+        coverAlt: 'Capa do portfolio comercial personalizavel',
+        githubUrl: 'https://github.com/TSWill03/Portifolio',
+        demoUrl: 'https://tswill03.github.io/Portifolio/',
         gallery: [
           {
-            src: '/media/gallery-dashboard.svg',
-            alt: 'Tela com grade de projetos e estatisticas',
+            src: '/media/project-controle-estoque.svg',
+            alt: 'Capa do projeto controle de estoque',
           },
           {
-            src: '/media/gallery-wireframe.svg',
-            alt: 'Wireframe de uma pagina premium com cards',
+            src: '/media/project-campusflow.svg',
+            alt: 'Capa do projeto CampusFlow',
           },
         ],
         highlights: [
-          'Fluxo narrativo pensado para converter visitantes em contatos.',
-          'Secoes editaveis por configuracao, sem depender de CMS.',
-          'Visual sofisticado com gradientes, vidro fosco e contrastes fortes.',
+          'Conteudo e interface separados para facilitar manutencao e revenda.',
+          'Projetos, contatos e galerias atualizados por configuracao central.',
+          'Publicacao continua no GitHub Pages com deploy automatizado.',
         ],
         details:
-          'Este case demonstra como um portifolio pode servir como vitrine profissional e prototipo de um produto white-label, pronto para ser adaptado a outras marcas.',
+          'Este projeto representa o lado comercial do seu trabalho: uma estrutura premium, responsiva e adaptavel para apresentar servicos, cases e evolucao profissional sem depender de um CMS.',
       },
       {
-        id: 'ops-dashboard',
-        title: 'Dashboard de Operacoes Criativas',
+        id: 'controle-estoque',
+        title: 'Controle de Estoque Corporativo',
         description:
-          'Painel para acompanhar tarefas, entregas e indicadores de uma pequena operacao digital em crescimento.',
+          'Sistema desktop para operacao de estoque em rede local, com servidor centralizado, auditoria, Excel e fluxos seguros de entrada, saida e transferencia.',
         status: 'in-progress',
-        phase: 'Sprint atual: filtros e automacoes',
-        technologies: ['React', 'Charts', 'Design tokens', 'REST API'],
-        cover: '/media/project-dashboard.svg',
-        coverAlt: 'Interface de dashboard com graficos e cards de status',
-        githubUrl: 'https://github.com/seuusuario/ops-dashboard',
-        demoUrl: 'https://dashboard-demo.seusite.com',
-        gallery: [
-          {
-            src: '/media/gallery-studio.svg',
-            alt: 'Ambiente digital com cards de tarefas e status',
-          },
-          {
-            src: '/media/gallery-launch.svg',
-            alt: 'Tela com mockup de lancamento de produto',
-          },
-        ],
+        phase: 'Base operacional com modulos principais implementados',
+        technologies: ['Electron', 'React', 'TypeScript', 'Fastify', 'Prisma', 'PostgreSQL'],
+        cover: '/media/project-controle-estoque.svg',
+        coverAlt: 'Capa do sistema de controle de estoque corporativo',
         highlights: [
-          'Projeto em evolucao com foco em leitura rapida e priorizacao.',
-          'Cards reaproveitaveis para equipes pequenas ou freelancers.',
-          'Base visual pronta para dashboards SaaS e paineis internos.',
+          'Desktop profissional conectado a uma API centralizada para uso interno.',
+          'Regras de negocio, auditoria e movimentacoes tratadas no back-end.',
+          'Arquitetura modular preparada para crescer por modulos e relatorios.',
         ],
         details:
-          'Aqui a proposta e transformar informacao operacional em uma experiencia limpa, segura e visualmente madura, com espaco para filtros, historico e automacoes futuras.',
+          'O projeto foi pensado para operacao real em ambiente corporativo, com autenticacao, categorias, fornecedores, depositos, produtos, alertas de estoque minimo e importacao/exportacao por Excel.',
       },
       {
-        id: 'academy-hub',
-        title: 'Hub de Cursos e Certificados',
+        id: 'campusflow',
+        title: 'CampusFlow',
         description:
-          'Pagina institucional para organizar trilhas, certificados e provas sociais em uma interface clara e profissional.',
+          'Gerenciador academico pessoal offline-first para estudantes universitarios, com perfis, disciplinas, horas obrigatorias, estudos e backup local em JSON.',
+        status: 'in-progress',
+        phase: 'MVP offline-first validado',
+        technologies: ['Flutter', 'Riverpod', 'Drift', 'SQLite', 'Go Router', 'Material 3'],
+        cover: '/media/project-campusflow.svg',
+        coverAlt: 'Capa do app CampusFlow',
+        highlights: [
+          'Funciona 100% offline com banco local e metadados para sync futura.',
+          'Organiza disciplinas, tarefas, sessoes de estudo e atividades academicas.',
+          'Backup e restauracao em JSON para manter os dados portaveis.',
+        ],
+        details:
+          'A arquitetura do app foi preparada para crescer com sincronizacao incremental, multi-dispositivo e publicacao em web, desktop e mobile, sem perder a clareza da estrutura por features.',
+      },
+      {
+        id: 'quanto-custa',
+        title: 'Quanto Custa?',
+        description:
+          'Simulador de impacto financeiro para pequenos habitos recorrentes, comparando o custo atual com cenarios mais sustentaveis ao longo do tempo.',
         status: 'completed',
-        phase: 'Publicacao e integracao com novos cursos',
-        technologies: ['Vite', 'TypeScript', 'Cards dinamicos', 'Responsividade'],
-        cover: '/media/project-learning.svg',
-        coverAlt: 'Layout de plataforma educacional com cards de cursos',
-        githubUrl: 'https://github.com/seuusuario/academy-hub',
-        demoUrl: 'https://academy.seusite.com',
+        phase: 'MVP multiplataforma com historico local',
+        technologies: ['Flutter', 'Dart', 'SharedPreferences', 'Material 3'],
+        cover: '/media/project-quanto-custa.svg',
+        coverAlt: 'Capa do app Quanto Custa',
         highlights: [
-          'Separacao elegante entre cursos, certificados e cronograma.',
-          'Estrutura pensada para incluir links, PDF e provas visuais.',
-          'Foco em escaneabilidade tanto no desktop quanto no mobile.',
+          'Transforma habitos recorrentes em simulacoes mensais, anuais e de cinco anos.',
+          'Salva cenarios localmente para restaurar ou excluir depois.',
+          'Projeto pensado como app de portfolio para Windows, Android e iOS.',
         ],
         details:
-          'Este projeto serve como referencia para paginas de treinamento, comunidades e produtos educacionais que precisam exibir credenciais com mais sofisticacao.',
+          'O foco do app e mostrar com clareza visual como pequenos gastos recorrentes afetam o bolso no longo prazo, tornando a simulacao facil de entender e util para tomada de decisao.',
       },
       {
-        id: 'future-scheduler',
-        title: 'Agenda Inteligente para Atendimento',
+        id: 'txt-webnovel-reader',
+        title: 'TXT Webnovel Reader',
         description:
-          'Ideia planejada para oferecer um fluxo simples de captacao, agendamento e acompanhamento de novos clientes.',
-        status: 'planned',
-        phase: 'Pesquisa de escopo e viabilidade comercial',
-        technologies: ['UX research', 'Integracoes', 'Automacao', 'WhatsApp'],
-        cover: '/media/project-scheduler.svg',
-        coverAlt: 'Conceito visual de agenda inteligente com calendario',
-        demoUrl: 'https://seusite.com/agenda-inteligente',
-        videoEmbedUrl: 'https://www.youtube.com/embed/eY52Zsg-KVI',
+          'Leitor continuo com foco inicial em desktop para livros em TXT, EPUB e PDF, priorizando leitura local, importacao simples e navegacao sem ruido.',
+        status: 'in-progress',
+        phase: 'Leitor desktop em evolucao',
+        technologies: ['Flutter', 'Desktop', 'EPUBX', 'pdfrx', 'SharedPreferences'],
+        cover: '/media/project-reader-real.svg',
+        coverAlt: 'Capa do leitor continuo de livros',
         highlights: [
-          'Fluxo orientado a conversao e praticidade.',
-          'Possibilidade de integrar formularios, CRM e lembretes.',
-          'Produto pensado para profissionais liberais e estudios.',
+          'Importa conteudo local e organiza a leitura em uma interface enxuta.',
+          'Base preparada para TXT, EPUB, PDF e persistencia local.',
+          'Projeto pensado para leitura continua com foco em desktop.',
         ],
         details:
-          'Mesmo em fase planejada, o case ja deixa clara a direcao visual e o potencial de venda do produto, reforcando a maturidade do processo de concepcao.',
+          'Esse projeto mostra seu lado de produto utilitario: uma base Flutter para leitura local que pode evoluir com biblioteca, favoritos, progresso e organizacao de colecoes pessoais.',
       },
     ],
   },
@@ -338,7 +332,11 @@ export const portfolioData: PortfolioData = {
         description:
           'Adaptar esta base para um pacote que possa ser entregue com mais velocidade para consultores, mentores e pequenos estudios.',
         status: 'Em definicao',
-        outcomes: ['Kit de secoes reaproveitaveis', 'Checklist de onboarding', 'Modo rapido de customizacao'],
+        outcomes: [
+          'Kit de secoes reaproveitaveis',
+          'Checklist de onboarding',
+          'Modo rapido de customizacao',
+        ],
       },
       {
         phase: 'Q3 2026',
@@ -424,57 +422,52 @@ export const portfolioData: PortfolioData = {
   },
   gallery: {
     eyebrow: 'Galeria multimidia',
-    title: 'Imagens e videos para enriquecer a apresentacao de cada projeto.',
+    title: 'Capas reais dos projetos e ativos visuais que agora viajam junto com o deploy.',
     description:
-      'A galeria complementa os cards de projeto com visuais amplos, making of, wireframes e videos incorporados por link, mantendo a pagina flexivel para diferentes tipos de material.',
+      'Como suas imagens locais nao estavam indo para o site, reorganizei a galeria para usar arquivos versionados dentro do proprio repositorio. Assim o GitHub Pages publica tudo junto.',
     images: [
       {
-        title: 'Estudio visual do produto',
+        title: 'Portfolio comercial',
         description:
-          'Peca visual que reforca o posicionamento premium da pagina e ajuda a construir atmosfera de marca.',
-        src: '/media/gallery-studio.svg',
-        alt: 'Painel visual de um estudio criativo com elementos digitais',
-        tag: 'Imagem de apresentacao',
+          'A capa do proprio portfolio, que tambem funciona como produto white-label para apresentacao comercial.',
+        src: '/media/project-portfolio.svg',
+        alt: 'Capa do portfolio comercial personalizavel',
+        tag: 'Web',
       },
       {
-        title: 'Wireframe e planejamento',
+        title: 'Controle de Estoque',
         description:
-          'Representacao do raciocinio por tras da distribuicao de conteudo e das areas de interacao.',
-        src: '/media/gallery-wireframe.svg',
-        alt: 'Wireframe de uma landing page premium',
-        tag: 'Processo',
+          'Capa criada para representar o sistema desktop corporativo de estoque, operacao e auditoria.',
+        src: '/media/project-controle-estoque.svg',
+        alt: 'Capa do sistema de controle de estoque',
+        tag: 'Desktop',
       },
       {
-        title: 'Tela de lancamento',
+        title: 'CampusFlow',
         description:
-          'Mockup que mostra como a mesma estrutura pode ganhar cara de produto comercial.',
-        src: '/media/gallery-launch.svg',
-        alt: 'Tela promocional de lancamento de um produto digital',
-        tag: 'Apresentacao',
+          'Visual dedicado ao app academico offline-first, com foco em disciplinas, horas e estudos.',
+        src: '/media/project-campusflow.svg',
+        alt: 'Capa do app CampusFlow',
+        tag: 'Flutter',
       },
       {
-        title: 'Visao de dashboard',
+        title: 'Quanto Custa?',
         description:
-          'Exemplo de composicao para interfaces mais orientadas a dados e acompanhamento de status.',
-        src: '/media/gallery-dashboard.svg',
-        alt: 'Dashboard com cards e indicadores',
-        tag: 'Interface',
+          'App autoral para simulacao do impacto financeiro de habitos recorrentes com historico local.',
+        src: '/media/project-quanto-custa.svg',
+        alt: 'Capa do app Quanto Custa',
+        tag: 'Habitos',
+      },
+      {
+        title: 'TXT Webnovel Reader',
+        description:
+          'Leitor para TXT, EPUB e PDF com foco em uma experiencia desktop mais continua e limpa.',
+        src: '/media/project-reader-real.svg',
+        alt: 'Capa do leitor TXT Webnovel Reader',
+        tag: 'Leitura',
       },
     ],
-    videos: [
-      {
-        title: 'Demo em video de navegacao',
-        description:
-          'Exemplo de espaco para incorporar uma apresentacao curta do projeto ou walkthrough comercial.',
-        embedUrl: 'https://www.youtube.com/embed/aqz-KE-bpKQ',
-      },
-      {
-        title: 'Apresentacao de produto customizavel',
-        description:
-          'Bloco util para mostrar prototipos, pitch de venda ou uma explicacao visual do servico.',
-        embedUrl: 'https://www.youtube.com/embed/eY52Zsg-KVI',
-      },
-    ],
+    videos: [],
   },
   services: {
     eyebrow: 'Servicos e produto',
@@ -614,12 +607,12 @@ export const portfolioData: PortfolioData = {
     availability:
       'Atendimento remoto, briefing por mensagem ou reuniao online e entregas pensadas para facilitar aprovacoes e evolucao do projeto.',
     quickMessage:
-      'Ola! Vi seu portifolio e gostaria de conversar sobre um site personalizado.',
+      'Ola! Vi seu portfolio e gostaria de conversar sobre um site personalizado.',
     methods: [
       {
         title: 'WhatsApp',
         value: '+55 34 99767-5400',
-        href: 'https://wa.me/5534997675400?text=Ola!%20Vi%20seu%20portifolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
+        href: 'https://wa.me/5534997675400?text=Ola!%20Vi%20seu%20portfolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
         icon: 'whatsapp',
         description: 'Canal ideal para um primeiro contato rapido e objetivo.',
       },
@@ -659,14 +652,14 @@ export const portfolioData: PortfolioData = {
       },
       {
         label: 'Site',
-        href: 'https://seunome.dev',
+        href: 'https://tswill03.github.io/Portifolio/',
         icon: 'globe',
       },
     ],
     quickLinks: [
       {
         label: 'Chamar no WhatsApp',
-        href: 'https://wa.me/5534997675400?text=Ola!%20Vi%20seu%20portifolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
+        href: 'https://wa.me/5534997675400?text=Ola!%20Vi%20seu%20portfolio%20e%20gostaria%20de%20conversar%20sobre%20um%20site%20personalizado.',
         variant: 'primary',
         icon: 'whatsapp',
       },
@@ -680,7 +673,7 @@ export const portfolioData: PortfolioData = {
   },
   footer: {
     note:
-      'Projeto pensado para ser portifolio pessoal, demonstracao comercial e base reutilizavel para entregas futuras.',
-    copyright: 'Seu Nome Studio. Todos os direitos reservados.',
+      'Portfolio pessoal com projetos reais e estrutura visual pronta para crescer ou ser adaptada a novas entregas.',
+    copyright: 'Wicolly Alcantara. Todos os direitos reservados.',
   },
 }
