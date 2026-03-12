@@ -159,6 +159,32 @@ Depois de rodar `npm run build`, publique a pasta `dist/` em qualquer host estat
 - GitHub Pages
 - Cloudflare Pages
 
+### Deploy com GitHub Pages
+
+O projeto ja esta preparado para GitHub Pages com workflow em `.github/workflows/deploy.yml`.
+
+Passos:
+
+1. Crie um repositorio no GitHub.
+2. Conecte o projeto local ao repositorio:
+
+```bash
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+git add .
+git commit -m "Preparar portfolio para deploy"
+git push -u origin master
+```
+
+Se sua branch principal for `main`, use `main` no lugar de `master`.
+
+3. No GitHub, abra `Settings > Pages` e selecione `GitHub Actions` como source.
+4. A cada novo `push`, o site sera publicado automaticamente.
+
+Importante:
+
+- Se o repositorio for `SEU_USUARIO.github.io`, o site abre na raiz do dominio.
+- Se o repositorio tiver outro nome, o Vite detecta isso automaticamente no build de Pages.
+
 ## Observacao importante
 
 Como seus dados reais nao foram enviados, o projeto foi entregue com exemplos prontos e placeholders editaveis como `Seu Nome Studio`, `contato@seunome.dev` e `github.com/seuusuario`.
