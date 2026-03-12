@@ -26,7 +26,8 @@ npm run preview
 ```text
 public/
   media/                  # imagens SVG de exemplo
-  curriculo-demo.html     # exemplo funcional para o botao de curriculo
+  curriculo.html          # versao web do curriculo
+  curriculo.pdf           # PDF real publicado junto do site
 src/
   components/             # cards, botoes, layout e elementos reutilizaveis
   data/portfolioData.ts   # conteudo central do site
@@ -105,11 +106,12 @@ https://www.youtube.com/embed/VIDEO_ID
 
 ### 4. Curriculo
 
-O botao da hero aponta hoje para `public/curriculo-demo.html`.
+O botao da hero aponta hoje para `public/curriculo.html`.
 
 Voce pode:
 
-- substituir por um PDF real em `public/`
+- editar a versao web em `public/curriculo.html`
+- substituir o PDF em `public/curriculo.pdf`
 - apontar para um link externo
 - trocar o `href` em `hero.actions`
 

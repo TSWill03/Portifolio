@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 import { Icon } from '@/components/ui/Icon'
 import type { ButtonVariant, IconName } from '@/types/portfolio'
+import { resolveContentUrl } from '@/utils/resolveContentUrl'
 
 interface BaseButtonProps {
   children: ReactNode
@@ -46,16 +47,17 @@ export function Button(props: ButtonProps) {
   )
 
   if (isLinkButton(props)) {
+    const resolvedHref = resolveContentUrl(props.href)
     const opensNewTab =
       props.target === '_blank' ||
-      props.href.startsWith('http') ||
-      props.href.endsWith('.pdf')
+      resolvedHref.startsWith('http') ||
+      resolvedHref.endsWith('.pdf')
 
     return (
       <a
         aria-label={props.ariaLabel}
         className={className}
-        href={props.href}
+        href={resolvedHref}
         rel={opensNewTab ? 'noreferrer' : undefined}
         target={opensNewTab ? '_blank' : props.target}
       >

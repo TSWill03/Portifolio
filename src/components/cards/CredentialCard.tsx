@@ -1,6 +1,7 @@
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import type { CredentialItem } from '@/types/portfolio'
+import { resolveContentUrl } from '@/utils/resolveContentUrl'
 
 interface CredentialCardProps {
   item: CredentialItem
@@ -9,7 +10,12 @@ interface CredentialCardProps {
 export function CredentialCard({ item }: CredentialCardProps) {
   return (
     <article className="glass-card credential-card">
-      <img alt={item.imageAlt} className="credential-card__image" loading="lazy" src={item.image} />
+      <img
+        alt={item.imageAlt}
+        className="credential-card__image"
+        loading="lazy"
+        src={resolveContentUrl(item.image)}
+      />
 
       <div className="credential-card__body">
         <div className="credential-card__meta">

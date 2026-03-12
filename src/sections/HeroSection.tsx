@@ -4,6 +4,7 @@ import { Reveal } from '@/components/ui/Reveal'
 import { SocialLinks } from '@/components/ui/SocialLinks'
 import { StatCard } from '@/components/ui/StatCard'
 import type { HeroData } from '@/types/portfolio'
+import { resolveContentUrl } from '@/utils/resolveContentUrl'
 
 interface HeroSectionProps {
   data: HeroData
@@ -74,7 +75,7 @@ export function HeroSection({ data }: HeroSectionProps) {
 
         <div className="hero__visual">
           <Reveal className="glass-card hero__art" delay={180}>
-            <img alt={data.image.alt} src={data.image.src} />
+            <img alt={data.image.alt} src={resolveContentUrl(data.image.src)} />
           </Reveal>
 
           <Reveal className="glass-card hero__feature" delay={320}>

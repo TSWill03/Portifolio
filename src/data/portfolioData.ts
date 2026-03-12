@@ -103,7 +103,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         label: 'Abrir curriculo',
-        href: '/curriculo-demo.html',
+        href: '/curriculo.html',
         variant: 'ghost',
         icon: 'download',
       },

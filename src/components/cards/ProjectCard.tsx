@@ -3,6 +3,7 @@ import { useId, useState } from 'react'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import type { ProjectItem, ProjectStatus } from '@/types/portfolio'
+import { resolveContentUrl } from '@/utils/resolveContentUrl'
 
 const statusMap: Record<ProjectStatus, { label: string; tone: 'primary' | 'success' | 'warning' }> = {
   completed: { label: 'Concluido', tone: 'success' },
@@ -22,7 +23,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <article className="glass-card project-card">
       <div className="project-card__cover">
-        <img alt={project.coverAlt} loading="lazy" src={project.cover} />
+        <img alt={project.coverAlt} loading="lazy" src={resolveContentUrl(project.cover)} />
       </div>
 
       <div className="project-card__content">
@@ -87,7 +88,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
             {project.gallery?.length ? (
               <div className="project-card__gallery">
                 {project.gallery.map((item) => (
-                  <img alt={item.alt} key={item.src} loading="lazy" src={item.src} />
+                  <img
+                    alt={item.alt}
+                    key={item.src}
+                    loading="lazy"
+                    src={resolveContentUrl(item.src)}
+                  />
                 ))}
               </div>
             ) : null}
@@ -98,7 +104,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   loading="lazy"
-                  src={project.videoEmbedUrl}
+                  src={resolveContentUrl(project.videoEmbedUrl)}
                   title={`Video demonstrativo do projeto ${project.title}`}
                 />
               </div>

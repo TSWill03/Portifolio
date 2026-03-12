@@ -3,6 +3,7 @@ import { SectionHeader } from '@/components/layout/SectionHeader'
 import { Badge } from '@/components/ui/Badge'
 import { Reveal } from '@/components/ui/Reveal'
 import type { GalleryData } from '@/types/portfolio'
+import { resolveContentUrl } from '@/utils/resolveContentUrl'
 
 interface GallerySectionProps {
   data: GalleryData
@@ -32,7 +33,7 @@ export function GallerySection({ data }: GallerySectionProps) {
               delay={index * 90}
               key={image.title}
             >
-              <img alt={image.alt} loading="lazy" src={image.src} />
+              <img alt={image.alt} loading="lazy" src={resolveContentUrl(image.src)} />
               <div className="gallery-card__body">
                 <Badge tone="secondary">{image.tag}</Badge>
                 <h3>{image.title}</h3>
@@ -51,7 +52,7 @@ export function GallerySection({ data }: GallerySectionProps) {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     loading="lazy"
-                    src={video.embedUrl}
+                    src={resolveContentUrl(video.embedUrl)}
                     title={video.title}
                   />
                 </div>
