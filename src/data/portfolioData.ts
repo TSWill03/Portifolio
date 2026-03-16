@@ -80,7 +80,7 @@ export const portfolioData: PortfolioData = {
   ],
   hero: {
     eyebrow: 'Portifolio pessoal + produto digital sob encomenda',
-    name: 'Wicolly Alcantara',
+    name: 'Wícolly Pedro Alcântara',
     role: 'Desenvolvedor de software focado em apps, sistemas e experiencias digitais premium',
     title: 'Projetos reais que conectam organizacao, usabilidade e valor de produto.',
     description:
@@ -149,7 +149,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         label: 'Instagram',
-        href: 'https://www.instagram.com/wicollyo',
+        href: 'https://www.instagram.com/wicolly',
         icon: 'instagram',
       },
     ],
@@ -312,7 +312,7 @@ export const portfolioData: PortfolioData = {
       },
       {
         id: 'txt-webnovel-reader',
-        title: 'TXT Webnovel Reader',
+        title: 'Veredra',
         description:
           'Leitor continuo com foco inicial em desktop para TXT, EPUB e PDF, com biblioteca local, importacao simples, perfis e navegacao sem ruido.',
         status: 'in-progress',
